@@ -1,7 +1,7 @@
 import React from "react";
 import BusinessHero from "../components/BusinessRegistration/BusinessHero";
-import BusinessRegistration from "./BusinessRegistration";
-import WhySign from "./WhySign";
+import BusinessRegistration from "../components/BusinessRegistration/BusinessRegistration";
+import WhySign from "../components/BusinessRegistration/WhySign";
 import PricingSupport from "../components/PricingComponent/PricingSupport";
 
 const page = () => {

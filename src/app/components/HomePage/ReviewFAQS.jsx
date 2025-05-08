@@ -40,7 +40,7 @@ const ReviewFAQS = () => {
   };
 
   return (
-    <section className="p-7">
+    <section className="md:p-7 p-4">
       <div className="bg-[#ffffff] max-w-[1050px] mx-auto p-8 gap-3 rounded-lg grid md:grid-cols-2 grid-cols-1">
         <div className="">
           <div className="flex flex-col text-center md:text-left gap-4">

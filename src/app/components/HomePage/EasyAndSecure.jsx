@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 const EasyAndSecure = () => {
   return (
-    <section className="bg-[#ffffff] p-10">
+    <section className="bg-[#ffffff] md:p-10 p-4 ">
       <div className="max-w-[1050px] mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           <div className="">

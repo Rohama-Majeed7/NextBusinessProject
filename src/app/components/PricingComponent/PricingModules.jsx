@@ -6,7 +6,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 
 const PricingModules = () => {
   return (
-    <section className="md:p-10 p-7">
+    <section className="md:p-10 p-4">
       <div className="flex flex-col gap-2 my-4 text-center">
         <h2 className="text-2xl font-bold text-[#323232]">
           All add-on modules to Standard

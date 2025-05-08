@@ -16,11 +16,11 @@ const Hero = () => {
     videoRef.current?.pause();
   };
   return (
-    <section className="p-5">
-      <div className="grid grid-cols-1 gap-8 md:grid-cols-2 max-w-[1050px] mx-auto  justify-center">
+    <section className="p-4 md:mt-[150px] mt-[0px]">
+      <div className="grid grid-cols-1 gap-20 md:grid-cols-2 max-w-[1050px] mx-auto   justify-center">
         {/* video */}
-        <div className="relative self-start w-full h-[450px] rounded-lg">
-          <div className="relative h-full w-full rounded-lg">
+        <div className="relative self-start w-full  ">
+          <div className="relative h-[400px] w-full rounded-lg">
             <video
               ref={videoRef}
               className="h-full w-full rounded-lg"
@@ -40,7 +40,7 @@ const Hero = () => {
               alt="start"
             />
           </div>
-          <ul className="flex absolute top-[95%] left-[30%] gap-1 self-center bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-full p-3">
+          <ul className="flex absolute top-[95%] md:left-[30%] left-[25%] gap-1 self-center bg-white/20 backdrop-blur-md border border-white/30 shadow-lg rounded-full p-3">
             {[...Array(5)].map((_, starIdx) => (
               <li key={starIdx}>
                 <Image

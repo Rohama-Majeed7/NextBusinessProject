@@ -7,14 +7,14 @@ import Link from "next/link";
 
 const VerifyCompany = () => {
   return (
-    <section className="md:p-10 p-5">
-      <main className="max-w-[1050px] mx-auto flex md:flex-row flex-col justify-between gap-6">
-        <div className="flex md:flex-row flex-col gap-5">
+      <section className="max-w-[1050px] p-4 md:p-10 mx-auto flex md:flex-row flex-col justify-between gap-6">
+        <div className="flex md:flex-row flex-col gap-7">
           <Image
             src="/images/love-book-logo.png"
             alt="Logo"
-            height={100}
-            width={100}
+            height={130}
+            width={130}
+            className="object-cover"
           />
           <div className="flex flex-col gap-4">
             <div className="flex flex-col">
@@ -106,8 +106,7 @@ const VerifyCompany = () => {
             </div>
           </div>
         </div>
-      </main>
-    </section>
+      </section>
   );
 };
 

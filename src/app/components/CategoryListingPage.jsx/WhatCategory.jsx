@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 const WhatCategory = () => {
   return (
-    <section className='md:p-10 p-6'>
+    <section className='md:p-10 p-4'>
         <div className="max-w-[1050px] mx-auto p-5 md:p-10 bg-[#ffffff] rounded-lg grid grid-cols-1 md:grid-cols-2 items-center justify-center">
                     <Image src="/images/vector-send_category_suggestion.svg" alt="img" height={400} width={400} />
                     <div className=" flex flex-col md:text-justify text-center gap-3">

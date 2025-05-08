@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 const ReviewRating = () => {
   return (
-    <section className="p-7">
+    <section className="md:p-7 p-4">
     <div className="bg-[#ffffff] max-w-[1050px] mx-auto p-8 gap-3 rounded-lg grid md:grid-cols-2 grid-cols-1">
           <div className="md:order-2 order-1">
             <div className="text-[#323232] flex flex-col gap-7">

@@ -5,7 +5,7 @@ const BusinessRegistration = () => {
   const [activeTab, setActiveTab] = useState("business");
 
   return (
-    <section className="md:p-10 p-5">
+    <section className="md:p-10 p-4">
       <div>
         <div className="max-w-[1050px] mx-auto p-6 bg-[#ffffff] shadow-2lg rounded-lg">
           {/* Toggle Switch */}

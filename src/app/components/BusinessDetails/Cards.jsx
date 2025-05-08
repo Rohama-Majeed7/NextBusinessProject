@@ -7,11 +7,11 @@ import { IoLocationOutline } from "react-icons/io5";
 
 export default function Cards() {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-6xl mx-auto p-4">
+    <div className="grid grid-cols-1  gap-6 max-w-6xl mx-auto ">
       {[1, 2, 3, 4].map((_, i) => (
         <div
           key={i}
-          className="bg-white shadow-md rounded-2xl p-6 flex flex-col gap-3 max-w-2xl w-full"
+          className="bg-white shadow-md rounded-2xl p-8 flex flex-col gap-3  w-full"
         >
           {/* Header */}
           <div className="flex  items-start gap-2 flex-row">

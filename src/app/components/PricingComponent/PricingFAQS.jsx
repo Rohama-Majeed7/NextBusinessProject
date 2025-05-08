@@ -38,7 +38,7 @@ function PricingFAQS() {
       };
     
   return (
-    <section className="md:p-14 p-8">
+    <section className="md:p-14 p-4">
       <div className="max-w-[1050px] mx-auto flex flex-col gap-8">
         <h2 className="text-4xl text-[#323232]">Frequently Asked Questions</h2>
         <div className="bg-white p-7 md:p-10 rounded-lg">

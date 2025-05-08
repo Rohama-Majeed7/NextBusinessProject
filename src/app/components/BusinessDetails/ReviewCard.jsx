@@ -30,8 +30,7 @@ export default function ReviewCard() {
     setCheckedStates(newState);
   };
   return (
-    <section className="md:p-10 p-5">
-    <div className="max-w-xl pb-6 mx-auto bg-white shadow-md rounded-2xl p-6 flex md:flex-row flex-col gap-6 items-start">
+    <div className=" pb-6 bg-white shadow-md rounded-2xl p-6 flex md:flex-row flex-col gap-6 items-start">
       {/* Left section */}
       <div className="flex flex-col items-start gap-4">
         <div className="flex flex-col items-start gap-3">
@@ -135,8 +134,9 @@ export default function ReviewCard() {
               key={idx}
               className="flex justify-baseline flex-col gap-2 text-sm text-gray-700"
             >
-              <div className="flex items-center gap-2 text-sm text-gray-700">
+              <div className="flex items-center justify-between gap-2 text-sm text-gray-700">
                 {/* Custom checkbox */}
+                <div className="flex gap-2">
                 <button
                   onClick={() => toggleCheckbox(idx)}
                   className={`w-6 h-6 rounded-md flex items-center justify-center transition-colors duration-300
@@ -166,6 +166,7 @@ export default function ReviewCard() {
 
                 {/* Label */}
                 <span className="w-16">{item.stars}</span>
+                </div>
                 {/* Percent */}
                 <span className="w-10 text-right">{item.percent}%</span>
               </div>
@@ -184,6 +185,5 @@ export default function ReviewCard() {
         </div>
       </div>
     </div>
-    </section>
   );
 }

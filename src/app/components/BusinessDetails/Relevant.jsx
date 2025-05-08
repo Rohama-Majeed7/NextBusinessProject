@@ -8,8 +8,7 @@ const Relevant = () => {
   const [show1, setShow1] = useState(false);
 
   return (
-    <section>
-      <main className="flex justify-between">
+      <div className="flex justify-between my-5 py-6">
         {/* left */}
         <div className="relative flex justify-between text-gray-500 gap-3">
           <span>sort by:</span>
@@ -52,15 +51,14 @@ const Relevant = () => {
               show1 ? "block" : "hidden"
             } flex-col gap-2 w-fit p-3 rounded-lg shadow-lg bg-white absolute right-0 top-8`}
           >
-            <span className="text-[#323232] ">Action</span>
+            <span className="text-[#323232] text-sm md:text-nowrap">Action</span>
             <hr />
-            <span className="text-[#323232]">Another Action</span>
+            <span className="text-[#323232] text-sm md:text-nowrap">Another Action</span>
             <hr />
-            <span className="text-[#323232]">Something else</span>
+            <span className="text-[#323232] text-sm md:text-nowrap">Something else</span>
           </div>
         </div>
-      </main>
-    </section>
+      </div>
   );
 };
 

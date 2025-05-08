@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const WhySign = () => {
   return (
-    <section className="p-6 md:p-10">
+    <section className="p-4 md:p-10">
       <div className="max-w-[1050px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-3">
         <div>
           <h1 className="text-[#323232] text-center md:text-justify font-bold text-3xl md:text-5xl leading-13">

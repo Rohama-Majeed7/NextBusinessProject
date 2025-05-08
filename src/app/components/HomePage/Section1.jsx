@@ -13,9 +13,9 @@ const Section1 = () => {
   ];
 
   return (
-    <section className="">
-      <div className="max-w-[1050px] mx-auto w-[95vw]">
-        <h1 className="text-3xl sm:text-4xl py-4 my-6 lg:text-5xl font-bold text-gray-900 mb-4 text-center my-3">
+    <section className="md:p-7 p-4">
+      <div className="max-w-[1050px] mx-auto ">
+        <h1 className="text-3xl sm:text-4xl py-4 my-6 lg:text-5xl font-bold text-gray-900 mb-4 text-center ">
           Superior Customer Feedback Solutions for Business Growth
         </h1>
 
