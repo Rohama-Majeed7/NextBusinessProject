@@ -7,7 +7,7 @@ import {
 
 import { cn } from "@/lib/utils"
 import { buttonVariants } from "@/components/ui/button";
-
+import Link from "next/link"
 function Pagination({
   className,
   ...props
@@ -35,7 +35,7 @@ function PaginationContent({
 }
 
 function PaginationItem({
-  ...props
+  
 }) {
   return <li data-slot="pagination-item" {...props} />;
 }

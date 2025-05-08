@@ -4,6 +4,7 @@ import VerifyCompany from '../components/BusinessDetails/VerifyCompany'
 import ReviewCard from '../components/BusinessDetails/ReviewCard'
 import Cards from '../components/BusinessDetails/Cards'
 import Relevant from '../components/BusinessDetails/Relevant'
+import { Pagination } from '@/components/ui/pagination'
 
 const page = () => {
   return (
@@ -12,6 +13,7 @@ const page = () => {
       <ReviewCard />
       <Relevant />
       <Cards />
+      <Pagination />
         <PricingSupport />
     </section>
   )
