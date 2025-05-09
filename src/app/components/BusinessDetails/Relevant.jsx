@@ -10,17 +10,17 @@ const Relevant = () => {
   return (
       <div className="flex justify-between my-5 py-6">
         {/* left */}
-        <div className="relative flex justify-between text-gray-500 gap-3">
-          <span>sort by:</span>
+        <div className="relative flex justify-between gap-3">
+          <span className="text-[#b7b9bb]">sort by:</span>
           <div className="flex gap-3 items-center">
-            <span className="text-[#323232] font-semibold text-xl">
+            <span className="text-[#343434] font-semibold text-xl">
               Most Relevant
             </span>
             <FaAngleDown
               onClick={() => {
                 setShow(!show);
               }}
-              className="text-gray-500 font-semibold"
+              className="text-[#b7b9bb] font-semibold"
             />
           </div>
           <div
@@ -28,9 +28,10 @@ const Relevant = () => {
               show ? "block" : "hidden"
             } flex-col gap-2 w-fit p-3 rounded-lg shadow-lg bg-white absolute right-0 top-8`}
           >
-            <span className="text-[#323232] ">Most Relevant</span>
+            <span className="text-[#343434] hover:bg-[#f6f6f6] p-2 cursor-pointer ">Most Relevant</span>
+            
             <hr />
-            <span className="text-[#323232]">Most Relevant</span>
+            <span className="text-[#b7b9bb] hover:bg-[#f6f6f6] p-2 cursor-pointer  hover:text-[#343434]">Most Relevant</span>
           </div>
         </div>
         <div className="relative">
@@ -42,20 +43,20 @@ const Relevant = () => {
                   setShow(false);
                 }
               }}
-              className="text-[#323232] text-xl"
+              className="text-[#b7b9bb] text-xl"
             />
-            <span className="text-[#323232] ">Filter</span>
+            <span className="text-[#343434] font-bold ">Filter</span>
           </div>
           <div
             className={`flex ${
               show1 ? "block" : "hidden"
             } flex-col gap-2 w-fit p-3 rounded-lg shadow-lg bg-white absolute right-0 top-8`}
           >
-            <span className="text-[#323232] text-sm md:text-nowrap">Action</span>
+            <span className="text-[#343434] hover:bg-[#f6f6f6] p-2 cursor-pointer text-sm md:text-nowrap">Action</span>
             <hr />
-            <span className="text-[#323232] text-sm md:text-nowrap">Another Action</span>
+            <span className="text-[#343434] hover:bg-[#f6f6f6] p-2 cursor-pointer text-sm md:text-nowrap">Another Action</span>
             <hr />
-            <span className="text-[#323232] text-sm md:text-nowrap">Something else</span>
+            <span className="text-[#343434] hover:bg-[#f6f6f6] p-2 cursor-pointer text-sm md:text-nowrap">Something else</span>
           </div>
         </div>
       </div>

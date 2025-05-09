@@ -7,7 +7,7 @@ import { BiDollarCircle } from "react-icons/bi";
 
 export default function CompanyCard() {
   return (
-    <div className="max-w-md mx-auto bg-white rounded-xl shadow-md p-3 overflow-hidden border border-gray-200">
+    <div className=" bg-white rounded-[20px] shadow-md p-2 ">
       {/* Header Section */}
       <div className="p-4 border-b ">
         <div className="flex justify-between items-center">
@@ -16,7 +16,7 @@ export default function CompanyCard() {
           </h2>
           <Link
             href="#"
-            className="text-sm text-gray-500 underline font-semibold hover:underline"
+            className="text-sm text-[#7d7595] underline font-semibold hover:underline"
           >
             Show all
           </Link>
@@ -25,37 +25,37 @@ export default function CompanyCard() {
         {/* Activity Items */}
         <ul className="my-4 space-y-3 ">
           <li className="flex items-center gap-3 bg-[#f1eef8] px-4 py-2 rounded-full">
-            <CiCalendar className="font-semibold text-gray-500 text-xl" />
-            <span className="text-gray-400 font-semibold text-sm">Claimed profile</span>
+            <CiCalendar className="font-semibold text-[#9f96b7] text-xl" />
+            <span className="text-[#747474]  text-sm">Claimed profile</span>
           </li>
           <li className="flex items-center gap-3 bg-[#f1eef8] px-4 py-2 rounded-full">
-            <BsSend className="font-semibold text-gray-500 text-xl" />
-            <span className="text-gray-400 font-semibold text-sm">Asks for reviews — positive or negative</span>
+            <BsSend className=" text-[#9f96b7] text-xl" />
+            <span className="text-[#747474]  text-sm">Asks for reviews — positive or negative</span>
           </li>
           <li className="flex items-center gap-3 bg-[#f1eef8] px-4 py-2 rounded-full">
-            <BiDollarCircle className="font-semibold text-gray-500 text-xl" />
-            <span className="text-gray-400 font-semibold text-sm">Pays for extra features</span>
+            <BiDollarCircle className=" text-[#9f96b7] text-xl" />
+            <span className="text-[#747474]  text-sm">Pays for extra features</span>
           </li>
           <li className="flex items-center gap-3 bg-[#f1eef8] px-4 py-2 rounded-full">
-            <TbMessage className="font-semibold text-gray-500 text-xl" />
-            <span className="text-gray-400 font-semibold text-sm">Replied to 69% of negative reviews</span>
+            <TbMessage className=" text-[#9f96b7] text-xl" />
+            <span className="text-[#747474]  text-sm">Replied to 69% of negative reviews</span>
           </li>
           <li className="flex items-center gap-3 bg-[#f1eef8] px-4 py-2 rounded-full">
-            <MdOutlineVerified className="font-semibold text-gray-500 text-xl" />
-            <span className="text-gray-400 font-semibold text-sm">Replies to negative reviews in  2 weeks</span>
+            <MdOutlineVerified className=" text-[#9f96b7] text-xl" />
+            <span className="text-[#747474]  text-sm">Replies to negative reviews in  2 weeks</span>
           </li>
         </ul>
       </div>
 
       {/* About Section */}
       <div className="p-4">
-        <h3 className=" font-medium text-[#323232] text-bold text-2xl mb-1">
+        <h3 className=" font-bold text-[#323232] text-bold text-2xl mb-1">
           About LoveBook
         </h3>
-        <p className="text-xs text-gray-500 mb-3">
+        <p className="text-xs text-[#7c7c7c] mb-3">
           Information written by the company
         </p>
-        <p className="text-sm text-gray-700 leading-relaxed">
+        <p className="text-sm text-[#696969] leading-relaxed">
           LoveBook™ began as a simple idea—a handmade notebook listing all the
           reasons why one guy loved his wife. The gift was a hit, giving birth
           to the first "LoveBook". Rob Patterson knew that his wife adored the

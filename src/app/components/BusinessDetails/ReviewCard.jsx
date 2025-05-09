@@ -14,7 +14,7 @@ export default function ReviewCard() {
   const [filledPercents, setFilledPercents] = useState(Array(5).fill(0));
 
   const [checkedStates, setCheckedStates] = useState(
-    new Array(ratingsData.length).fill(true)
+    new Array(ratingsData.length).fill(false)
   );
 
   useEffect(() => {
@@ -30,7 +30,7 @@ export default function ReviewCard() {
     setCheckedStates(newState);
   };
   return (
-    <div className=" pb-6 bg-white shadow-md rounded-2xl p-6 flex md:flex-row flex-col gap-6 items-start">
+    <div className=" bg-white shadow-md rounded-[20px] pt-9 pb-10 px-8 flex md:flex-row flex-col gap-6 items-center">
       {/* Left section */}
       <div className="flex flex-col items-start gap-4">
         <div className="flex flex-col items-start gap-3">
@@ -42,7 +42,7 @@ export default function ReviewCard() {
               height={100}
               width={100}
             />
-            <h3 className="font-semibold text-[#323232] text-lg">
+            <h3 className="font-semibold text-[#000000] text-lg">
               Gabi Guerra
             </h3>
           </div>
@@ -111,15 +111,15 @@ export default function ReviewCard() {
         </div>
 
         {/* Review Stats */}
-        <div className="flex md:flex-row flex-col gap-3">
-          <div className="text-sm text-gray-600">
+        <div className="flex flex-row  gap-3">
+          <div className="text-sm text-[##323232]">
             <strong>Reviews - 4.7</strong>
             <div>81,909 total</div>
           </div>
 
           <Link
             href={""}
-            className="border border-purple-[#713fff] text-purple-600 font-medium rounded-full px-6 py-3 hover:bg-purple-50 transition"
+            className="border-1 border-[#713fff] text-[#713fff] font-medium rounded-full px-6 py-3 hover:bg-[#713fff] hover:text-[#ffffff] transition"
           >
             Write a review
           </Link>
@@ -137,48 +137,48 @@ export default function ReviewCard() {
               <div className="flex items-center justify-between gap-2 text-sm text-gray-700">
                 {/* Custom checkbox */}
                 <div className="flex gap-2">
-                <button
-                  onClick={() => toggleCheckbox(idx)}
-                  className={`w-6 h-6 rounded-md flex items-center justify-center transition-colors duration-300
+                  <button
+                    onClick={() => toggleCheckbox(idx)}
+                    className={`w-6 h-6 rounded-md flex items-center justify-center transition-colors duration-300
                 ${
                   checkedStates[idx]
                     ? "border border-[#713fff] bg-white text-[#713fff]"
                     : "border border-gray-300 bg-pink-50 text-white"
                 }
               `}
-                >
-                  {checkedStates[idx] && (
-                    <svg
-                      className="w-4 h-4"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth={3}
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M5 13l4 4L19 7"
-                      />
-                    </svg>
-                  )}
-                </button>
+                  >
+                    {checkedStates[idx] && (
+                      <svg
+                        className="w-4 h-4"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth={3}
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M5 13l4 4L19 7"
+                        />
+                      </svg>
+                    )}
+                  </button>
+                </div>
+                {/* Progress Bar */}
+                <div className="flex flex-col w-full">
+                  <span className="w-16">{item.stars}</span>
 
-                {/* Label */}
-                <span className="w-16">{item.stars}</span>
+                  <div className="w-full bg-purple-100 h-2 rounded-full overflow-hidden">
+                    <div
+                      className="bg-[#713fff] h-2 rounded-full transition-all duration-1000 ease-in-out"
+                      style={{
+                        width: `${filledPercents[idx]}%`,
+                      }}
+                    ></div>
+                  </div>
                 </div>
                 {/* Percent */}
                 <span className="w-10 text-right">{item.percent}%</span>
-              </div>
-
-              {/* Progress Bar */}
-              <div className="w-full bg-purple-100 h-2 rounded-full overflow-hidden">
-                <div
-                  className="bg-[#713fff] h-2 rounded-full transition-all duration-1000 ease-in-out"
-                  style={{
-                    width: `${filledPercents[idx]}%`,
-                  }}
-                ></div>
               </div>
             </div>
           ))}

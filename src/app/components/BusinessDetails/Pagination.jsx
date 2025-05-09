@@ -39,11 +39,11 @@ export default function Pagination({ totalPages = 25 }) {
   };
 
   return (
-    <div className="flex items-center md:flex-row flex-col justify-between  py-10 ">
+    <div className="flex items-center flex-row  justify-between  py-10 ">
       {/* Prev Button */}
       <button
         onClick={handlePrev}
-        className="py-3 px-8 rounded-full  hover:border-purple-500 border border-gray-300 flex items-center justify-center disabled:opacity-40"
+        className="md:py-3 md:px-8 p-4 rounded-full  text-[#737373] hover:border-[#713fff] border-1 hover:text-[#713fff] border-[#737373] flex items-center justify-center disabled:opacity-40"
         disabled={currentPage === 1}
       >
         <BsArrowLeft className='text-2xl' />
@@ -57,10 +57,10 @@ export default function Pagination({ totalPages = 25 }) {
             onClick={() => handleClick(page)}
             className={`text-lg font-semibold ${
               page === currentPage
-                ? 'text-purple-600'
+                ? 'text-[#713fff]'
                 : page === '...'
-                ? 'cursor-default text-gray-500'
-                : 'text-gray-800 hover:text-purple-600'
+                ? 'cursor-default text-[#343434]'
+                : 'text-gray-800 hover:text-[#713fff]'
             }`}
             disabled={page === '...'}
           >
@@ -72,7 +72,7 @@ export default function Pagination({ totalPages = 25 }) {
       {/* Next Button */}
       <button
         onClick={handleNext}
-        className="py-3 px-8 rounded-full  hover:border-purple-500 border border-gray-300 flex items-center justify-center disabled:opacity-40"
+        className="md:py-3 md:px-8 p-4 rounded-full  text-[#737373] hover:border-[#713fff] border-1 hover:text-[#713fff] border-[#737373] flex items-center justify-center disabled:opacity-40"
         disabled={currentPage === totalPages}
       >
         <BsArrowRight className='text-2xl' />

@@ -8,15 +8,15 @@ import ContactCard from "./ContactCard";
 
 const BusinessDetailMain = () => {
   return (
-    <section className="my-10 p-4 md:p-10">
-      <main className="grid grid-cols-1  md:grid-cols-3 max-w-[1050px] mx-auto gap-3">
+    <section className="my-10 p-2 md:p-10">
+      <main className="grid grid-cols-1 items-center  md:grid-cols-3 max-w-[1150px] mx-auto gap-3">
         <div className="col-span-2 flex flex-col gap-3">
           <ReviewCard />
           <Relevant />
           <Cards />
           <Pagination />
         </div>
-        <div className="col-sapn-1  flex flex-col gap-2">
+        <div className=" flex flex-col items-center gap-2">
         <CompanyCard />
         <ContactCard />
         </div>

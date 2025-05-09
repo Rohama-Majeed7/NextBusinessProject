@@ -11,7 +11,7 @@ const NeedSupport = () => {
         >
           Need Support
         </Link>
-        <div className="flex flex-col  text-xl md:text-3xl font-bold text-[#323232] gap-2">
+        <div className="flex flex-col p-4  text-xl md:text-3xl font-bold text-[#323232] gap-2">
           <span className="">Get Assistance:</span>
           <h3>Explore Our Help Center</h3>
         </div>
