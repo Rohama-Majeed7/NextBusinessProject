@@ -9,23 +9,23 @@ const BusinessRegistration = () => {
       <div>
         <div className="max-w-[1050px] mx-auto p-6 bg-[#ffffff] shadow-2lg rounded-[20px]">
           {/* Toggle Switch */}
-          <div className="flex justify-center mb-6 border-1 border-purple-500 w-fit rounded-full p-1 mx-auto">
+          <div className="flex justify-center mb-6 border-1 border-[#713fff] w-fit rounded-full p-1 mx-auto">
             <button
               onClick={() => setActiveTab("business")}
-              className={`px-6 p-3 rounded-full transition  ${
+              className={`px-6 p-3 rounded-full transition font-semibold ${
                 activeTab === "business"
-                  ? "bg-violet-600 text-white"
-                  : "bg-white text-gray-700"
+                  ? "bg-[#713fff] text-white"
+                  : "bg-white text-[#818080]"
               }`}
             >
               Business Registration
             </button>
             <button
               onClick={() => setActiveTab("product")}
-              className={`px-6 py-2 rounded-full transition ${
+              className={`px-6 py-2 rounded-full transition font-semibold ${
                 activeTab === "product"
-                  ? "bg-violet-600 text-white"
-                  : "bg-white text-gray-700"
+                  ? "bg-[#713fff] text-white"
+                  : "bg-white text-[#818080]"
               }`}
             >
               Product Registration
