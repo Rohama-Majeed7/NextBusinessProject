@@ -2,14 +2,15 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { AlignJustify } from "@deemlol/next-icons";
 import Sidebar from "@/app/components/HomePage/SideBar";
+import { HiBars3 } from "react-icons/hi2";
+
 import { useState } from "react";
-const PricingHeader = () => {
+const BusinessRegistrationHeader = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <header className="bg-[#edf0f5] hidden md:block">
+      <header className=" hidden md:block">
         <div className="mx-auto flex items-center justify-between px-4 py-3 md:py-5 max-w-[1050px]">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
@@ -23,7 +24,7 @@ const PricingHeader = () => {
           </Link>
 
           {/* Center Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden md:flex items-center space-x-8 text-sm font-semibold text-[#323232]">
             <Link
               href="/pricing"
               className="text-gray-800 hover:text-[#713fff]"
@@ -48,7 +49,7 @@ const PricingHeader = () => {
           </nav>
 
           {/* Right Actions */}
-          <div className="hidden md:flex items-center space-x-4">
+          <div className="hidden md:flex items-center space-x-4 text-sm font-semibold text-[#323232]">
             <Link href="/join" className="text-gray-800 hover:text-[#713fff]">
               Join
             </Link>
@@ -59,12 +60,13 @@ const PricingHeader = () => {
             <Link href="" className="text-white bg-[#713fff] hover:opacity-20 py-2 px-3 rounded-full">
              Business
             </Link>
+         
           </div>
         </div>
       </header>
 
       <header className=" block md:hidden">
-        <div className="mx-auto my-4 flex items-center justify-between px-3 py-3 md:py-3 max-w-[1050px] shadow-2xl bg-white rounded-full w-90">
+        <div className="mx-auto my-4 flex items-center justify-between px-3 py-3 md:py-3 max-w-[1050px] bg-white rounded-full w-90">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <Image
@@ -75,8 +77,8 @@ const PricingHeader = () => {
             />
           </Link>
 
-          <AlignJustify
-            className="text-[#878787] h-8 w-8"
+          <HiBars3
+            className="text-[#343434] h-8 w-8"
             onClick={() => setIsOpen(!isOpen)}
           />
         </div>
@@ -86,4 +88,6 @@ const PricingHeader = () => {
   );
 };
 
-export default PricingHeader;
+export default BusinessRegistrationHeader;
+
+            
