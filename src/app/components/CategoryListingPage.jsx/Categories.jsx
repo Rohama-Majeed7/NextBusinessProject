@@ -5,7 +5,7 @@ import { IoArrowForwardCircleOutline } from "react-icons/io5";
 const Categories = () => {
   return (
     <section className="p-2">
-      <div className="max-w-[1150px] mx-auto my-6 w-[98%] grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-4 ">
+      <div className="max-w-[1150px] mx-auto my-6 w-[98%] grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-3 xlg:grid-cols-4 ">
 
         <div className="bg-[#ffffff]  rounded-3xl  p-8 w-full max-w-sm shadow-sm">
           <div className="flex items-center space-x-2 mb-6">
