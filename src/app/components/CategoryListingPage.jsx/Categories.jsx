@@ -4,10 +4,10 @@ import { IoArrowForwardCircleOutline } from "react-icons/io5";
 
 const Categories = () => {
   return (
-    <section>
-      <div className="max-w-[1050px] mx-auto my-6 w-[98%] justify-center grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-2">
+    <section className="p-2">
+      <div className="max-w-[1150px] mx-auto my-6 w-[98%] grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-4 ">
 
-        <div className="bg-[#ffffff] rounded-2xl   p-8 w-full max-w-sm shadow-sm">
+        <div className="bg-[#ffffff]  rounded-3xl  p-8 w-full max-w-sm shadow-sm">
           <div className="flex items-center space-x-2 mb-6">
             <Image src={"/images/icon-categery-animals.svg"} alt="category-svg" height={50} width={50} />
             <h2 className="text-xl font-semibold text-gray-800">
@@ -15,7 +15,7 @@ const Categories = () => {
             </h2>
           </div>
 
-          <ul className="space-y-4 text-gray-600">
+          <ul className="space-y-4 text-[#8a8a8a] text-semibold">
             <li className="flex items-center space-x-2 hover:text-gray-800 cursor-pointer">
               <IoArrowForwardCircleOutline className="w-4 h-4 text-gray-400" />
               <span>Animal Health</span>
@@ -43,7 +43,7 @@ const Categories = () => {
           </ul>
         </div>
 
-        <div className="bg-[#ffffff] rounded-2xl   p-8 w-full max-w-sm shadow-sm">
+        <div className="bg-[#ffffff] rounded-3xl  p-8 w-full max-w-sm shadow-sm">
           <div className="flex items-center space-x-2 mb-6">
             <Image src={"/images/icon-categery-beauty.svg"} alt="category-svg" height={50} width={50} />
             <h2 className="text-xl font-semibold text-gray-800">
@@ -51,7 +51,7 @@ const Categories = () => {
             </h2>
           </div>
 
-          <ul className="space-y-4 text-gray-600">
+          <ul className="space-y-4 text-[#8a8a8a] text-semibold">
             <li className="flex items-center space-x-2 hover:text-gray-800 cursor-pointer">
               <IoArrowForwardCircleOutline className="w-4 h-4 text-gray-400" />
               <span>Cosmetics & Makeup</span>
@@ -83,7 +83,7 @@ const Categories = () => {
           </ul>
         </div>
 
-        <div className="bg-[#ffffff] rounded-2xl  p-8 w-full max-w-sm shadow-sm">
+        <div className="bg-[#ffffff] rounded-3xl  p-8 w-full max-w-sm shadow-sm">
           <div className="flex items-center space-x-2 mb-6">
             <Image src={"/images/icon-categery-business.svg"} alt="category-svg" height={50} width={50} />
             <h2 className="text-xl font-semibold text-gray-800">
@@ -91,7 +91,7 @@ const Categories = () => {
             </h2>
           </div>
 
-          <ul className="space-y-4 text-gray-600">
+          <ul className="space-y-4 text-[#8a8a8a] text-semibold">
             <li className="flex items-center space-x-2 hover:text-gray-800 cursor-pointer">
               <IoArrowForwardCircleOutline className="w-4 h-4 text-gray-400" />
               <span>Administration & Services</span>
@@ -139,7 +139,7 @@ const Categories = () => {
           </ul>
         </div>
  
-        <div className="bg-[#ffffff] rounded-2xl   p-8 w-full max-w-sm shadow-sm">
+        <div className="bg-[#ffffff] rounded-3xl   p-8 w-full max-w-sm shadow-sm">
           <div className="flex items-center space-x-2 mb-6">
             <Image src={"/images/icon-categery-construction.svg"} alt="category-svg" height={50} width={50} />
             <h2 className="text-xl font-semibold text-gray-800">
@@ -147,7 +147,7 @@ const Categories = () => {
             </h2>
           </div>
 
-          <ul className="space-y-4 text-gray-600">
+          <ul className="space-y-4 text-[#8a8a8a] text-semibold">
             <li className="flex items-center space-x-2 hover:text-gray-800 cursor-pointer">
               <IoArrowForwardCircleOutline className="w-4 h-4 text-gray-400" />
               <span>Architects & Engineers</span>
@@ -195,7 +195,7 @@ const Categories = () => {
           </ul>
         </div>
 
-        <div className="bg-[#ffffff] rounded-2xl  p-8 w-full max-w-sm shadow-sm">
+        <div className="bg-[#ffffff] rounded-3xl  p-8 w-full max-w-sm shadow-sm">
           <div className="flex items-center space-x-2 mb-6">
             <Image src={"/images/icon-categery-education.svg"} alt="category-svg" height={50} width={50} />
             <h2 className="text-xl font-semibold text-gray-800">
@@ -203,7 +203,7 @@ const Categories = () => {
             </h2>
           </div>
 
-          <ul className="space-y-4 text-gray-600">
+          <ul className="space-y-4 text-[#8a8a8a] text-semibold">
             <li className="flex items-center space-x-2 hover:text-gray-800 cursor-pointer">
               <IoArrowForwardCircleOutline className="w-4 h-4 text-gray-400" />
               <span>Colleges & Universities</span>
@@ -239,7 +239,7 @@ const Categories = () => {
           </ul>
         </div>
 
-        <div className="bg-[#ffffff] rounded-2xl  p-8 w-full max-w-sm shadow-sm">
+        <div className="bg-[#ffffff] rounded-3xl  p-8 w-full max-w-sm shadow-sm">
           <div className="flex items-center space-x-2 mb-6">
             <Image src={"/images/icon-categery-electrics.svg"} alt="category-svg" height={50} width={50} />
             <h2 className="text-xl font-semibold text-gray-800">
@@ -271,7 +271,7 @@ const Categories = () => {
           </ul>
         </div>
 
-        <div className="bg-[#ffffff] rounded-2xl  p-8 w-full max-w-sm shadow-sm">
+        <div className="bg-[#ffffff] rounded-3xl  p-8 w-full max-w-sm shadow-sm">
           <div className="flex items-center space-x-2 mb-6">
             <Image src={"/images/icon-categery-events.svg"} alt="category-svg" height={50} width={50} />
             <h2 className="text-xl font-semibold text-gray-800">
@@ -327,7 +327,7 @@ const Categories = () => {
             </h2>
           </div>
 
-          <ul className="space-y-4 text-gray-600">
+          <ul className="space-y-4 text-[#8a8a8a] text-semibold">
             <li className="flex items-center space-x-2 hover:text-gray-800 cursor-pointer">
               <IoArrowForwardCircleOutline className="w-4 h-4 text-gray-400" />
               <span>Agriculture & Produce</span>
@@ -391,7 +391,7 @@ const Categories = () => {
             </h2>
           </div>
 
-          <ul className="space-y-4 text-gray-600">
+          <ul className="space-y-4 text-[#8a8a8a] text-semibold">
             <li className="flex items-center space-x-2 hover:text-gray-800 cursor-pointer">
               <IoArrowForwardCircleOutline className="w-4 h-4 text-gray-400" />
               <span>Art & Handicraft</span>

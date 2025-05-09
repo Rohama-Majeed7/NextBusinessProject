@@ -30,7 +30,7 @@ export default function Sidebar({isOpen,setIsOpen}) {
       >
         <div className="flex items-center justify-end px-4 py-4">
           <button onClick={() => setIsOpen(false)}>
-            <X className="w-8 h-8 text-[#878787]" />
+            <X className="w-8 h-8 text-[#8a8a8a]" />
           </button>
         </div>
         <nav className="p-4">
@@ -38,7 +38,7 @@ export default function Sidebar({isOpen,setIsOpen}) {
             <Link
               key={link.name}
               href={link.href}
-              className="block px-2 py-3 text-[#878787] font-medium border-b-gray-300 border-b-1 hover:text-black"
+              className="block px-2 py-3 text-[#8a8a8a] font-bold border-b-gray-300 border-b-1 hover:text-black"
               onClick={() => setIsOpen(false)}
             >
               {link.name}
