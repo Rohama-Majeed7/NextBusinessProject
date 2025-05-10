@@ -16,7 +16,7 @@ const BusinessDetailMain = () => {
           <Cards />
           <Pagination />
         </div>
-        <div className=" flex flex-col items-center gap-2">
+        <div className=" flex flex-col gap-2">
         <CompanyCard />
         <ContactCard />
         </div>
