@@ -33,15 +33,59 @@ export default function Cards() {
                 </div>
                 <div className="flex items-center gap-2 text-[#737373] text-sm">
                   <div className="flex text-yellow-400">
-                    <FaStar />
-                    <FaStar />
-                    <FaStar />
-                    <FaStar />
-                    <FaStarHalfAlt />
+                    <ul className="flex items-center gap-1 text-yellow-400 text-xl">
+                      <li className="flex flex-col items-center gap-2">
+                        <Image
+                          className="star-rating-icon"
+                          src="/images/rating-star-full.svg"
+                          alt=""
+                          height={20}
+                          width={20}
+                        />
+                      </li>
+                      <li className="flex flex-col items-center gap-2">
+                        <Image
+                          class="star-rating-icon"
+                          src="/images/rating-star-full.svg"
+                          alt=""
+                          height={20}
+                          width={20}
+                        />
+                      </li>
+                      <li className="flex flex-col items-center gap-2">
+                        <Image
+                          class="star-rating-icon"
+                          src="/images/rating-star-full.svg"
+                          alt=""
+                          height={20}
+                          width={20}
+                        />
+                      </li>
+                      <li className="flex flex-col items-center gap-2">
+                        <Image
+                          class="star-rating-icon"
+                          src="/images/rating-star-half.svg"
+                          alt=""
+                          height={20}
+                          width={20}
+                        />
+                      </li>
+                      <li className="flex flex-col items-center gap-2">
+                        <Image
+                          class="star-rating-icon"
+                          src="/images/rating-star-blank.svg"
+                          alt=""
+                          height={20}
+                          width={20}
+                        />
+                      </li>
+                    </ul>
                   </div>
                   <span className="flex items-center gap-1">
                     <IoLocationOutline />
-                    <span className="md:block hidden text-[#737373]">United States</span>
+                    <span className="md:block hidden text-[#737373]">
+                      United States
+                    </span>
                   </span>
                 </div>
               </div>
@@ -67,7 +111,9 @@ export default function Cards() {
           <div className="flex md:flex-row flex-col justify-between md:items-center">
             <p className="text-sm text-[#737373]">
               Date of experience:{" "}
-              <span className="font-semibold text-[#323232]">February 07, 2024</span>
+              <span className="font-semibold text-[#323232]">
+                February 07, 2024
+              </span>
             </p>
 
             {/* Actions */}

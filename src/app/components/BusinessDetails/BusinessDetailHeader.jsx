@@ -11,7 +11,7 @@ const PricingHeader = () => {
   return (
     <>
       <header className=" hidden md:block bg-[#ffffff]">
-        <div className="mx-auto flex items-center justify-between px-4 py-3 md:py-5 max-w-[1050px]">
+        <div className="mx-auto flex items-center justify-between px-4 py-3 md:py-5 max-w-[1150px]">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <Image

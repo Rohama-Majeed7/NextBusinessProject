@@ -16,7 +16,7 @@ const CategoryHero = () => {
           <input
             type="text"
             placeholder="Search a Business or product Name "
-            className="w-full  bg-white py-4 px-5 md:py-5 md:px-10 rounded-full  border-[#e0e0e0] border-2 text-white placeholder:text-gray-400 focus:ring-2  focus:border-[#713fff]"
+            className="w-full  bg-white py-4 px-5 md:py-5 md:px-10 rounded-full  border-[#e0e0e0] border-2 text-white placeholder:text-gray-400   focus:outline-[#713fff] focus:outline-1"
           />
           <button
             variant="default"

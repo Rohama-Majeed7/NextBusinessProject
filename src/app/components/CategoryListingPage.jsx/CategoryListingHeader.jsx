@@ -6,7 +6,7 @@ import Sidebar from "@/app/components/HomePage/SideBar";
 import { HiBars3 } from "react-icons/hi2";
 
 import { useState } from "react";
-const PricingHeader = () => {
+const CategoryListingHeader = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
@@ -84,4 +84,4 @@ const PricingHeader = () => {
   );
 };
 
-export default PricingHeader;
+export default CategoryListingHeader;

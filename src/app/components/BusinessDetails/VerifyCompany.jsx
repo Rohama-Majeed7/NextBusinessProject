@@ -14,7 +14,7 @@ const VerifyCompany = () => {
             alt="Logo"
             height={130}
             width={130}
-            className="object-cover"
+            className="object-cover rounded-[15px]"
           />
           <div className="flex flex-col gap-4">
             <div className="flex flex-col">
@@ -87,7 +87,13 @@ const VerifyCompany = () => {
         
         <div className="flex flex-col gap-5">
           <div className="flex gap-2 items-center">
-            <IoIosLink className="text-[#713fff] font-bold text-4xl" />
+            <Image
+            src="/images/link.png"
+            alt="Logo"
+            height={40}
+            width={40}
+            className="object-cover"
+          />
             <div className="flex flex-col">
               <span className="text-[#737373]">Visit this website</span>
               <Link className="text-xl font-semibold text-[#713fff] underline" href={""}>

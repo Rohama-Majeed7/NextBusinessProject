@@ -11,7 +11,7 @@ const BusinessRegistrationHeader = () => {
   return (
     <>
       <header className=" hidden md:block">
-        <div className="mx-auto flex items-center justify-between px-4 py-3 md:py-5 max-w-[1050px]">
+        <div className="mx-auto flex items-center justify-between px-3 py-3 md:py-5 max-w-[1150px]">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <Image
@@ -57,7 +57,7 @@ const BusinessRegistrationHeader = () => {
             <Link href="/signin" className="text-gray-800 hover:text-[#713fff]">
               Sign in
             </Link>
-            <Link href="" className="text-white bg-[#713fff] hover:opacity-20 py-2 px-3 rounded-full">
+            <Link href="" className="text-white bg-[#713fff] hover:opacity-80 py-2 px-3 rounded-full">
              Business
             </Link>
          
