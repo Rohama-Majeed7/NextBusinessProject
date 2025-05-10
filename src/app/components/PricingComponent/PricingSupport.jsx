@@ -22,7 +22,7 @@ const PricingSupport = () => {
             className="bg-[#713fff] md:self-start self-center my-4 text-center text-white text-xl hover:opacity-80 rounded-full md:px-[70px] px-[70px] py-4"
             href="help-center.html"
           >
-            <div className="flex justify-center gap-3 items-center">
+            <div className="flex justify-center gap-3 items-center text-nowrap">
                 <BiSupport />
             Need Support
             </div>

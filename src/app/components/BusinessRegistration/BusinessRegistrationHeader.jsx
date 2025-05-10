@@ -65,8 +65,8 @@ const BusinessRegistrationHeader = () => {
         </div>
       </header>
 
-      <header className=" block md:hidden">
-        <div className="mx-auto my-4 flex items-center justify-between px-3 py-3 md:py-3 max-w-[1050px] bg-white rounded-full w-90">
+      <header className=" block md:hidden p-4">
+        <div className="mx-auto my-4 flex items-center justify-between px-3 py-3 md:py-3 max-w-[1050px] bg-white rounded-full ">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <Image
