@@ -5,7 +5,7 @@ import { BiSupport } from "react-icons/bi";
 
 const PricingSupport = () => {
   return (
-    <section className="p-4 md:p-10">
+    <section className="p-2 md:p-10">
       <div className="max-w-[1050px] gap-3 mb-10 p-6 py-15 rounded-[20px] mx-auto bg-white flex flex-col md:flex-row items-center justify-between">
         <Image
           className="md:order-1 order-2 self-center"

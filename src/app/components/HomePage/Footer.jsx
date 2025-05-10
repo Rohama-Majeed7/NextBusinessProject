@@ -190,7 +190,7 @@ export default function Footer() {
 
         <hr className="border-gray-600 my-8" />
 
-        <div className="text-sm text-gray-400 flex flex-col md:flex-row justify-between items-center">
+        <div className="text-sm text-[#b9b9b9] flex flex-col md:flex-row justify-between items-center">
           <p>©2024 YourReview Pvt. Ltd. All rights reserved</p>
           <div className="flex space-x-4 mt-3 md:mt-0">
             <Link href="#">Privacy Policy</Link>

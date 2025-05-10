@@ -7,7 +7,7 @@ import { BiDollarCircle } from "react-icons/bi";
 
 export default function CompanyCard() {
   return (
-    <div className=" bg-white rounded-[20px] shadow-md p-2 ">
+    <div className=" bg-white rounded-[20px] shadow-md p-2 w-full ">
       {/* Header Section */}
       <div className="p-4 border-b ">
         <div className="flex justify-between items-center">
@@ -76,6 +76,7 @@ export default function CompanyCard() {
           need is LOVE...and a little determination.
         </p>
       </div>
+
     </div>
   );
 }
