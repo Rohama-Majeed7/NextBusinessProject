@@ -77,11 +77,11 @@ const BusinessRegistration = () => {
                   />
                 </div>
                 <textarea
-                  className="md:w-1/2 w-full border-1 border-[#a1a1a1] focus:outline-0 px-6 py-7 rounded text-[#8794a4]"
+                  className=" w-full border-1 border-[#a1a1a1] focus:outline-0 px-6 py-7 rounded text-[#8794a4]"
                   placeholder="Address"
                 />
                 <textarea
-                  className="md:w-1/2 w-full border-1 border-[#a1a1a1] focus:outline-0 px-6 py-7 rounded text-[#8794a4]"
+                  className=" w-full border-1 border-[#a1a1a1] focus:outline-0 px-6 py-7 rounded text-[#8794a4]"
                   placeholder="About Company"
                 />
                 <div className="flex gap-4 flex-col md:flex-row">
@@ -133,7 +133,7 @@ const BusinessRegistration = () => {
                       I'd like to receive a demo of YourReviews's paid plans.
                     </span>
                   </label>
-                  <button className="mx-auto bg-[#713fff] rounded-full text-white  py-4 md:px-[150px] self-center w-fit hover:opacity-80">
+                  <button className="mx-auto bg-[#713fff] rounded-full text-white  py-4 md:px-[150px] px-[100px] text-nowrap self-center w-fit hover:opacity-80">
                     Create free account
                   </button>
                   <div className="text-center">
